@@ -1,7 +1,10 @@
 import NavBar from '../components/NavBar';
+import ChooseUs from '../components/choose-us';
+import Features from '../components/features';
 import Footer from '../components/footer';
 import Homme from '../components/homeSection';
 import OurTeam from '../components/our-team';
+import Predict from '../components/predit';
 import Homee from './home';
 
 export default function Home() {
@@ -18,23 +21,29 @@ export default function Home() {
       </section>
       <section
         id="about"
-        className="text-white h-screen bg-black  text-center flex">
-        <h1 className="m-auto font-waterfall text-7xl text-purple-600 font-bold  ">
+        // className="text-white h-screen bg-black  text-center flex"
+        >
+        {/* <h1 className="m-auto font-waterfall text-7xl text-purple-600 font-bold  ">
           About
-        </h1>
+        </h1> */}
+        <Predict />
       </section>
-      <section id="blog" className=" text-white h-screen bg-purple-900 flex">
-        <h1 className="m-auto font-waterfall text-7xl text-white font-bold">
+      <section id="blog" 
+      // className=" text-white h-screen bg-purple-900 flex"
+      >
+        <ChooseUs />
+        {/* <h1 className="m-auto font-waterfall text-7xl text-white font-bold">
           Blog
-        </h1>
+        </h1> */}
       </section>
       <section
         id="contact"
-        className="text-white h-screen bg-black  text-center flex"
+        // className="text-white h-screen bg-black  text-center flex"
       >
-        <h1 className="m-auto font-waterfall text-7xl text-purple-600 font-bold">
+        {/* <h1 className="m-auto font-waterfall text-7xl text-purple-600 font-bold">
           Contact{' '}
-        </h1>
+        </h1> */}
+        <Features />
       </section>
       <section
         id="projects">
