@@ -43,7 +43,7 @@ export default function Home() {
         {/* <h1 className="m-auto font-waterfall text-7xl text-purple-600 font-bold">
           Contact{' '}
         </h1> */}
-        <Features />
+        <Features />  
       </section>
       <section
         id="projects">
